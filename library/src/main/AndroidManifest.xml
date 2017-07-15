@@ -1,9 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="id.agusibrahim.yuuplayer" >
 	<uses-permission android:name="android.permission.INTERNET" />
 	<application
-		android:name="id.agusibrahim.yuuplayer"
 		android:hardwareAccelerated="true">
         <activity
+			android:screenOrientation="landscape"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:name="id.agusibrahim.yuuplayer.YuuPlayerFullScreen"/>
 	</application>
 </manifest>

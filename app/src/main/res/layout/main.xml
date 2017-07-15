@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:padding="10dp">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Load"
+			android:id="@+id/mainButton1"
+			android:layout_alignParentRight="true"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_toLeftOf="@id/mainButton1"
+			android:singleLine="true"
+			android:id="@+id/mainEditText1"
+			android:hint="Enter Video ID"
+			android:text="axr5xAawlXA"/>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/mainTextView1"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/mainTextView2"
+			android:textColor="#3FB60A"/>
+
+	</LinearLayout>
+
+	<id.agusibrahim.yuuplayer.YuuPlayer
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		app:video_id="YE7VzlLtp-4"
+		app:autoplay="false"
+		app:video_quality="small"
+		android:id="@+id/mainYuuPlayer"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Play"
+			android:id="@+id/mainButtonplay"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Stop"
+			android:id="@+id/mainButtonstop"/>
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="Mute"
+			android:id="@+id/mainCheckmute"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Get Info"
+			android:id="@+id/mainButtoninfo"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Volume"/>
+
+		<SeekBar
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/mainSeekBar1"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Download"
+		android:id="@+id/mainButton2"/>
+
+</LinearLayout>
+

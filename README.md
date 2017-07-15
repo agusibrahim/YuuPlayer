@@ -33,6 +33,13 @@ Add in your layout
 		app:video_quality="small"
 		android:id="@+id/mainYuuPlayer"/>
 ```
+or Play with full screen
+```java
+Intent inten=new Intent(context, YuuPlayerFullscreen.class);
+inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_ID, "eRsGyueVLvQ");			inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_QUALITY, "small");
+startActivity(inten);
+```
+
 For more details about API, check these example
 http://github.com/agusibrahim/blablabla
 
