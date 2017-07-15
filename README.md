@@ -40,8 +40,8 @@ inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_ID, "eRsGyueVLvQ");			inten.putEx
 startActivity(inten);
 ```
 
-For more details about API, check these example
-http://github.com/agusibrahim/blablabla
+For more details about API, check example
+https://github.com/agusibrahim/YuuPlayer/tree/master/app
 
 <img src="https://raw.githubusercontent.com/agusibrahim/YuuPlayer/master/img/Screenshot_20170715-112651.png" width="300">
 
