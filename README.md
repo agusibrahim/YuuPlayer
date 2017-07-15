@@ -45,6 +45,7 @@ https://github.com/agusibrahim/YuuPlayer/tree/master/app
 
 <img src="https://raw.githubusercontent.com/agusibrahim/YuuPlayer/master/img/Screenshot_20170715-112651.png" width="300">
 
+[Download APK](https://github.com/agusibrahim/YuuPlayer/releases/download/1.2/YuuPlayer-Example.apk)
 ## Issues
 Not work on some Android API version, especially who not supporting WebView HTML5 Video.
 
