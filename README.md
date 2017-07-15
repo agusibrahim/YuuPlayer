@@ -1,6 +1,6 @@
 # YuuPlayer
 
-[![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#jitpack/android-example)
+[![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#agusibrahim/YuuPlayer)
 
 Youtube Player without any dependency and without SDK, webview based. Control video and get video information programatically.
 
@@ -35,6 +35,7 @@ Add in your layout
 ```
 For more details about API, check these example
 http://github.com/agusibrahim/blablabla
+
 <img src="https://raw.githubusercontent.com/agusibrahim/YuuPlayer/master/img/Screenshot_20170715-112651.png" width="300">
 
 ## Issues
