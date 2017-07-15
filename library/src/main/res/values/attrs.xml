@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YuuValue">
+        <attr name="video_id" format="string" />
+		<attr name="video_quality" format="string" />
+		<attr name="volume" format="integer" />
+		<attr name="seek" format="integer" />
+		<attr name="autoplay" format="boolean" />
+	</declare-styleable>
+</resources>
