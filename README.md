@@ -1,6 +1,6 @@
 # YuuPlayer
 
-[![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#agusibrahim/YuuPlayer)
+[![Release](https://jitpack.io/v/agusibrahim/YuuPlayer.svg)](https://jitpack.io/#agusibrahim/YuuPlayer)
 
 Youtube Player without any dependency and without SDK, webview based. Control video and get video information programatically.
 
@@ -18,7 +18,7 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.jitpack:android-example:{latest version}'
+    compile 'com.github.agusibrahim:YuuPlayer:1.0'
 }
 ```
 

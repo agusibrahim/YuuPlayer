@@ -1,8 +1,9 @@
-<manifest package="id.agusibrahim.yuuplayer" >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="id.agusibrahim.yuuplayer" >
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application>
+	<application
+		android:name="id.agusibrahim.yuuplayer"
+		android:hardwareAccelerated="true">
         <activity
-            android:name="id.agusibrahim.yuuplayer.YuuPlayerFullScreen"
-            android:hardwareAccelerated="true" />
+            android:name="id.agusibrahim.yuuplayer.YuuPlayerFullScreen"/>
 	</application>
 </manifest>
