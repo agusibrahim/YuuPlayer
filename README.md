@@ -35,6 +35,7 @@ Add in your layout
 ```
 For more details about API, check these example
 http://github.com/agusibrahim/blablabla
+<img src="https://raw.githubusercontent.com/agusibrahim/YuuPlayer/master/img/Screenshot_20170715-112651.png" width="300">
 
 ## Issues
 Not work on some Android API version, especially who not supporting WebView HTML5 Video.
