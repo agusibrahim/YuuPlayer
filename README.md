@@ -18,7 +18,7 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.agusibrahim:YuuPlayer:1.1'
+    compile 'com.github.agusibrahim:YuuPlayer:1.2'
 }
 ```
 
