@@ -1,7 +1,8 @@
 # YuuPlayer
 
 [![Release](https://jitpack.io/v/agusibrahim/YuuPlayer.svg)](https://jitpack.io/#agusibrahim/YuuPlayer)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-YuuPlayer-green.svg?style=flat-square)](https://android-arsenal.com/details/1/5981)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-YuuPlayer-orange.svg?style=flat)](https://android-arsenal.com/details/1/5981)
+
 Youtube Player without any dependency and without SDK, webview based. Control video and get video information programatically.
 
 ## How to use
