@@ -1,7 +1,7 @@
 # YuuPlayer
 
 [![Release](https://jitpack.io/v/agusibrahim/YuuPlayer.svg)](https://jitpack.io/#agusibrahim/YuuPlayer)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-YuuPlayer-blue.svg?style=flat-square)](https://android-arsenal.com/details/1/5981)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-YuuPlayer-green.svg?style=flat-square)](https://android-arsenal.com/details/1/5981)
 Youtube Player without any dependency and without SDK, webview based. Control video and get video information programatically.
 
 ## How to use
@@ -36,7 +36,8 @@ Add in your layout
 or Play with full screen
 ```java
 Intent inten=new Intent(context, YuuPlayerFullscreen.class);
-inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_ID, "eRsGyueVLvQ");			inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_QUALITY, "small");
+inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_ID, "eRsGyueVLvQ");
+inten.putExtra(YuuPlayerFullscreen.PARAM_VIDEO_QUALITY, "small");
 startActivity(inten);
 ```
 
